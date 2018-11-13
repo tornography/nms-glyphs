@@ -1,0 +1,32 @@
+{
+  "name": "@tornography/nms-glyphs",
+  "version": "0.1.0",
+  "description": "Convert galactic coordinates of no mans sky (game) to portal glyphs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tornography/nms-glyphs.git"
+  },
+  "keywords": [
+    "nms",
+    "no",
+    "man's",
+    "sky",
+    "coordinates",
+    "portal",
+    "glyphs",
+    "converter"
+  ],
+  "author": "Manuel Schulz <npm@manuel.koeln> (https://manuel.koeln)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tornography/nms-glyphs/issues"
+  },
+  "homepage": "https://github.com/tornography/nms-glyphs#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
