@@ -24,10 +24,10 @@ const coordsFormated = (coords) => {
         return { error: 'Incorrect format. Only hexa decimal allowed.' };
     }
 
-    if (coords.length === 16 || coords.length === 19) {
+    if (coords.length !== 16 || coords.length !== 19) {
         return { error: 'Incorrect length. Coordinates must have a length of 16.' };
     }
-
+    
     return {
         original: blocks.join(':'),
         stripped: blocks.join(''),
