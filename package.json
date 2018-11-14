@@ -4,7 +4,8 @@
   "description": "Convert galactic coordinates of no mans sky (game) to portal glyphs.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "cover": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
   },
   "homepage": "https://github.com/tornography/nms-glyphs#readme",
   "devDependencies": {
+    "coveralls": "^3.0.2",
     "jest": "^23.6.0"
   }
 }

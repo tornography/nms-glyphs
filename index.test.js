@@ -27,3 +27,11 @@ test('coords have underscores', () => {
 test('splits coordinates into blocks', () => {
     expect(getCoordsDetails('1111222233334444').coordinates.blocks).toEqual(['1111', '2222','3333','4444'])
 });
+
+test('coordinates too short', () => {
+    expect(getCoordsDetails('11112222333344').error).toBe('Incorrect length. Coordinates must have a length of 16 or 19.')
+});
+
+test('coordinates too short', () => {
+    expect(getCoordsDetails('1111/2222/3333/4444').error).toBe('Incorrect format. Only hexa decimal allowed.')
+});
