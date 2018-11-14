@@ -1,5 +1,5 @@
 # nms-glyphs
-Converts galactic coordinates of [No Man's Sky](https://www.nomanssky.com/) (game) to portal glyphs.
+Converts galactic coordinates of [No Man's Sky](https://www.nomanssky.com/) (game) to portal glyphs. [![Build Status](https://travis-ci.org/tornography/nms-glyphs.svg?branch=master)](https://travis-ci.org/tornography/nms-glyphs) [![Coverage Status](https://coveralls.io/repos/github/tornography/nms-glyphs/badge.svg?branch=master)](https://coveralls.io/github/tornography/nms-glyphs?branch=master)
 
 # Online API
 There is an API online you can use under https://nmsapi.tornography.com/coordinates/1111:2222:3333:4444
