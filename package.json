@@ -1,6 +1,6 @@
 {
   "name": "@tornography/nms-glyphs",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Convert galactic coordinates of no mans sky (game) to portal glyphs.",
   "main": "index.js",
   "scripts": {
